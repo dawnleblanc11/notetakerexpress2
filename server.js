@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
 app.use('/', html);
-app.use('/api', api)
+app.use('/api', api);
 
 
 app.listen(PORT, () =>
