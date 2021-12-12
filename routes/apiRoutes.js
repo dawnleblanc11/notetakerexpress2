@@ -29,8 +29,8 @@ router.post('/notes', (req,res) => {
 
 // delete notes with and id that equals req.params.id
 // delete tasks not working
-router.delete('/notes/:id', (req,res) => {
-    console.log('Getting to delete function');
+//router.delete('/notes/:id', (req,res) => {
+//    console.log('Getting to delete function');
     // fs.readFile('./db/db.json','utf8', (err, info) => {
     //     if(err) throw err;
     //     let temp = JSON.parse(db);
@@ -40,7 +40,7 @@ router.delete('/notes/:id', (req,res) => {
     //             res.json('The note has been removed!')
     //       });
     // })
-});
+//});
 
 
     
